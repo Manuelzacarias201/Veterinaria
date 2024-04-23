@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: #F78300;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane prefHeight="61.0" prefWidth="640.0" style="-fx-background-color: #F74700;">
+               <children>
+                  <Text fill="WHITE" layoutX="203.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MODIFICAR REGISTRO" wrappingWidth="233.4091796875">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ListView layoutX="276.0" layoutY="81.0" prefHeight="226.0" prefWidth="303.0" />
+            <Button layoutX="31.0" layoutY="290.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="145.0" style="-fx-background-color: #F0F700;" text="MODIFICAR REGISTRO" />
+            <TextField layoutX="29.0" layoutY="105.0" />
+            <TextField layoutX="29.0" layoutY="169.0" />
+            <TextField layoutX="29.0" layoutY="233.0" />
+            <Text fill="WHITE" layoutX="29.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIPO DE MASCOTA" />
+            <Text fill="WHITE" layoutX="29.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAZA" />
+            <Text fill="WHITE" layoutX="31.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDAD" wrappingWidth="43.638671875" />
+            <Button layoutX="490.0" layoutY="329.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="89.0" style="-fx-background-color: #F0F700;" text="SALIR" />
+            <Button layoutX="235.0" layoutY="339.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="126.0" style="-fx-background-color: #F0F700;" text="ELIMINAR REGISTRO" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

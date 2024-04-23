@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: #20C5E1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zacarias.veterinaria.controllers.ElegirAnimal">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #20C5E1;" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="71.0" layoutY="154.0" mnemonicParsing="false" onMouseClicked="#onMamiferoClick" prefHeight="77.0" prefWidth="111.0" style="-fx-background-color: #FFFB00;" text="MAMIFERO" />
+            <Button layoutX="439.0" layoutY="154.0" mnemonicParsing="false" onMouseClicked="#onAveClick" prefHeight="77.0" prefWidth="111.0" style="-fx-background-color: #FFFB00;" text="AVE" />
+            <Button layoutX="247.0" layoutY="154.0" mnemonicParsing="false" onMouseClicked="#onReptilClick" prefHeight="77.0" prefWidth="111.0" style="-fx-background-color: #FFFB00;" text="REPTIL" />
+            <Pane layoutX="-6.0" prefHeight="46.0" prefWidth="648.0" style="-fx-background-color: #0027FF;">
+               <children>
+                  <Text fill="WHITE" layoutX="275.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ESPECIE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button layoutX="260.0" layoutY="310.0" mnemonicParsing="false" onMouseClicked="#onSalirClick" prefHeight="58.0" prefWidth="98.0" style="-fx-background-color: #FF8009;" text="SALIR" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
